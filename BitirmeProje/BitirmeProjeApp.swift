@@ -19,6 +19,7 @@ struct BitirmeProjeApp: App {
   @StateObject var viewModel = AuthenticationViewModel()
 
   init() {
+      print("Furkan")
     setupAuthentication()
   }
 
