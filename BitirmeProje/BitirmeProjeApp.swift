@@ -16,19 +16,19 @@ extension BitirmeProjeApp {
 
 @main
 struct BitirmeProjeApp: App {
-  @StateObject var viewModel = AuthenticationViewModel()
-
-  init() {
-      print("Furkan")
-    setupAuthentication()
-  }
-
-  var body: some Scene {
-    WindowGroup {
-      ContentView()
-        .environmentObject(viewModel)
+    @State private var locationManager = LocationManager()
+    var body: some Scene {
+        WindowGroup {
+            if locationManager.isAuthorized {
+                StartTab()
+            } else {
+                LocationDeniedView()
+            }
+        }
+        .modelContainer(for: Destination.self)
+        .environment(locationManager)
     }
-  }
 }
+
 
 
