@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>313902005847-v7otmk2umpk137gt9djvcd4vlv8iuq4n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.313902005847-v7otmk2umpk137gt9djvcd4vlv8iuq4n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB8E97qm34SDpWcg76MWxQNJ94JRvtliD8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>313902005847</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.edorfs.EVoyageApp</string>
+	<key>PROJECT_ID</key>
+	<string>evoyage-b0421</string>
+	<key>STORAGE_BUCKET</key>
+	<string>evoyage-b0421.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:313902005847:ios:290663ff33b519d1cb6d12</string>
+</dict>
+</plist>
